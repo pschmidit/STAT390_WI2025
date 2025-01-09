@@ -1,0 +1,25 @@
+﻿All cases were done manually
+
+
+Case 95: 
+All the slides looked similar except for ROI_2. However, ROI_2 could very feasibly be in the same shape as the other slices and thus be treated as the “same slice”. Ultimately I did put it in the other slices folder because it simply just wasn’t the same slice shape, but the fact that ROI_2 could feasibly be the same slice is important to keep in mind..
+
+
+Case 96:
+While the general shape looked the same for sox10, melan, and h&e ROI 2, creating a match between the tree, there was a big enough difference between them that I think should be important to note. ROI_1 was completely different from the others, only including a “head” of the tissue slice. Melan and sox10 looked almost the same in this case. 
+
+
+Case 97:
+The only images that looked remotely similar were mela ROI 2 and sox10 ROI 1. h&e ROI1 and sox10 ROI2 could feasibly be the same, but they were different enough that it did not make it seem like a match in my eyes. Ultimately there was no matching set in this case. 
+
+
+Case 98:
+h&e ROI 2 could be part of the “same slice” as the one matching set in this case, however, it seemed to only contain the “head” of the slice and thus doesn’t qualify. h&e ROI 1 just simply doesn’t look anything like the other samples so there is that.
+
+
+Case 99:
+The general contour of all the slices look the same, thus I kept them in as a match. The only issue appears to be with ROI1, simply because it seems as if part of the tissue sample is missing. However, the shape of the sample was visible enough such that it could very much be treated as the same slice.
+
+
+Case 100:
+The slices here all seem like the same tissue slice, so there are no issues here. Slight differences in exact contour but the general shape is almost exactly the same.
