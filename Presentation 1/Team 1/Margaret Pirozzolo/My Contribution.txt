@@ -1,0 +1,6 @@
+I went through the images to make sure the matches were correct. Cases 35 and 36 had two matches logged, but with both of them, the second match was not great, so I cut down to one match per case. For case 31, I had to rotate the images a little bit to match. I did the same for case 34. 
+
+For case 37, the only real matches were between Melan-A and H&E, and there were two great matches. Nothing really matched the SOX-10 sample, but I threw it in with the closest match. I'm not sure it'll be very helpful to the doctors because it doesn't really match up. 
+
+Overall, the data was already put together very well, and I only had to do minor modifications when transferring it to the new folder.  
+
