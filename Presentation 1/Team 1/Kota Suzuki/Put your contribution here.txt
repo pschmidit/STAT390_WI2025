@@ -1,6 +1,7 @@
-Put whatever you did here, except data files. Don't put any data files (tissue images) here, they are too large for github. You may indicate the data your code uses - provide the OneDrive link to that data, or just mention the path to it.
+I worked on Case 25-30 from Sheffield. 
 
-If you wrote any code (python / QuPath / any other language), comment it well, and put it here, along with a Readme file describing the code. If the code is meant to be useful to other people, put instructions in the Readme file on how to use it. You will get extra credit if many people use your code!
+Case 25 was the only one that posed a problem as the pre-processed tissue slices were not extracted properly. The original stains had two tissue slices formatted back-to-back very closely. Cara's automated code's default merging threshold was too high, so I edited that value to prevent this issue. 
 
-If you did literature survey, then put it here as well.
+The edited line of code is this one right here: double distanceThreshold = 5000.0 
 
+Other than that, I just had to watch out for orientation when matching the three sets of stain types. 
