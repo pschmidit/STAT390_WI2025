@@ -1,6 +1,11 @@
 Put whatever you did here, except data files. Don't put any data files (tissue images) here, they are too large for github. You may indicate the data your code uses - provide the OneDrive link to that data, or just mention the path to it.
 
-If you wrote any code (python / QuPath / any other language), comment it well, and put it here, along with a Readme file describing the code. If the code is meant to be useful to other people, put instructions in the Readme file on how to use it. You will get extra credit if many people use your code!
+Case Tissue Slide Matching - Assigned Cases 04-06
 
-If you did literature survey, then put it here as well.
+Case 04 - All slices were very similar.
 
+Case 05: The melan scan, while posessing similar shapes, was not matching in the angular positioning of its 'head'. The sox10 scan was not matching in its 'tail'. The h&e shared traits of both.
+
+Case 06: The sox10 was only similar in that it was an elongated shape with similar thicknesses as the other two scan. Most of its distinct shapes and curves were not matching.
+
+Both cases 05 and 06 were assessed for extraction thresholds. Both were extracted appropriately and clearly, these appear to be genuine mismatches.
