@@ -1,6 +1,12 @@
-Put whatever you did here, except data files. Don't put any data files (tissue images) here, they are too large for github. You may indicate the data your code uses - provide the OneDrive link to that data, or just mention the path to it.
+Week 1:
 
-If you wrote any code (python / QuPath / any other language), comment it well, and put it here, along with a Readme file describing the code. If the code is meant to be useful to other people, put instructions in the Readme file on how to use it. You will get extra credit if many people use your code!
+Assigned Cases 19-24:
 
-If you did literature survey, then put it here as well.
+19: Sox10 scan did not match any of the other scans.
+20: Original match2 was not the best match; replaced the H&E scan with a better option.
+21: Initially had only 1 scan for melan. Went back to the original data file and extracted the missing scan. Using the new melan scan, found a match.
+22: Folder contained 12 H&E scans, plus extra melan and sox10 scans. Rotated scans and identified 2 total matches.
+23: Good as is.
+24: Folder included 12 H&E scans and multiple melan/sox10 scans. Sox10 scans did not match any others; marked as unmatched.
 
+Assisted with rearranging data to send to stakeholders for annotation.
