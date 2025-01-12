@@ -1,5 +1,17 @@
 Put whatever you did here, except data files. Don't put any data files (tissue images) here, they are too large for github. You may indicate the data your code uses - provide the OneDrive link to that data, or just mention the path to it.
 
+I had patients 7 through 12 for the Sheffield data, making sure that the extracted slices were correct and matches were accurate
+I had a mostly smooth experience and a couple of the patients were fully extracted properly with the matches correct as well
+For a few patients, a ran into a couple different issues regarding incorrect matches or extraction including:
+
+Case 7: H&E match was incorrect for Sox10 and melan
+Case 8: H&E scan was incorrect, H&E scan top 2 tissue samples are blurry and unusable, No all 3 matches
+Case 9: No main issues the match is decent for Sox10 and H&E, I am wondering if the match for Melan and H&E is better with H&E_ROI_1 and not H&E_ROI_3
+Case 11: Two main Issues: Sox10 has 2 stains and 2 matches with H&E. Melan has no matches with H&E and Sox10
+
+These were mostly minor issues that could be fixed through rextraction using Qupath or reorganizing the match folders to be correct matches. I also added some other match folders to each case to accomodate double or triple matches. Overall, I would say my biggest hiccup was the blurry scan with case 8 and there not being a rescan to fix this issue. So that made it so that there were less H&E scans for that particular patient. Aside from that, this task mainly involved reogranizing and ensuring accuracy.
+
+
 If you wrote any code (python / QuPath / any other language), comment it well, and put it here, along with a Readme file describing the code. If the code is meant to be useful to other people, put instructions in the Readme file on how to use it. You will get extra credit if many people use your code!
 
 If you did literature survey, then put it here as well.
