@@ -1,6 +1,13 @@
-Put whatever you did here, except data files. Don't put any data files (tissue images) here, they are too large for github. You may indicate the data your code uses - provide the OneDrive link to that data, or just mention the path to it.
+I was tasked with cases 13-18 of the Sheffield data. This meant the corresponding IDs that ended with 66 to 71. Here is a summary of my results
+66 - no issues
+67 H&E and Sox doesn’t exist within slices extracted but did within the data folder. Had to manually annotate, export, and then match these slices
 
-If you wrote any code (python / QuPath / any other language), comment it well, and put it here, along with a Readme file describing the code. If the code is meant to be useful to other people, put instructions in the Readme file on how to use it. You will get extra credit if many people use your code!
+I initially downloaded the 67 H&E and re extracted using Caras code and QUPath but th image  was just giving me a blank. So I manually annotated and exported the images. The Sox had one strain image that I saved that while the H&E image had two
 
-If you did literature survey, then put it here as well.
+68 - There was 1 match between Sox and Melanin but no S&E and then one match between all 3. Made the one match and then put the rest in the other slices
 
+69 - No other slices for this case
+
+70 - no issues
+
+71 - No Sox slices at all included. Again, I manually extracted, saved, and then matched the slices
