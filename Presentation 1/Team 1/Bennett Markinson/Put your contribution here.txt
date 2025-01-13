@@ -10,4 +10,4 @@ I initially downloaded the 67 H&E and re extracted using Caras code and QUPath b
 
 70 - no issues
 
-71 - No Sox slices at all included. Again, I manually extracted, saved, and then matched the slices
+71 - No Sox slices at all included. Again, I manually extracted, saved, and then matched the slices.
