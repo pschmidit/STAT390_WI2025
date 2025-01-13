@@ -1,13 +1,13 @@
 I was tasked with cases 13-18 of the Sheffield data. This meant the corresponding IDs that ended with 66 to 71. Here is a summary of my results
-66 - no issues
-67 H&E and Sox doesn’t exist within slices extracted but did within the data folder. Had to manually annotate, export, and then match these slices
+66 (Case 13)- no issues
+67 (Case 14)H&E and Sox doesn’t exist within slices extracted but did within the data folder. Had to manually annotate, export, and then match these slices
 
 I initially downloaded the 67 H&E and re extracted using Caras code and QUPath but th image  was just giving me a blank. So I manually annotated and exported the images. The Sox had one strain image that I saved that while the H&E image had two
 
-68 - There was 1 match between Sox and Melanin but no S&E and then one match between all 3. Made the one match and then put the rest in the other slices
+68 (Case 15)- There was 1 match between Sox and Melanin but no S&E and then one match between all 3. Made the one match and then put the rest in the other slices
 
-69 - No other slices for this case
+69 (Case 16)- No other slices for this case
 
-70 - no issues
+70 (Case 17)- no issues
 
-71 - No Sox slices at all included. Again, I manually extracted, saved, and then matched the slices.
+71 (Case 18)- No Sox slices at all included. Again, I manually extracted, saved, and then matched the slices.
