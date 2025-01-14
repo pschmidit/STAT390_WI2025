@@ -1,1 +1,6 @@
-Put the presentation showing the updates from each team member. It need not be too elaborate. Points will be on the impact, and not on the length of the presentation. Keep it clear and concise. If you successfully achieved the objective, then just writing, "Objective achieved!" is enough. If you didn't achieve it, then you need to explain the challenges, what ideas you tried to overcome those challenges, why they didn't work, and what are the potential next things you can try, or if the objective is unachievable & we need to change our approach.
+Objective achieved! 
+
+We successfully matched every Sheffield case and uploaded the .tif files into OneDrive. 
+
+We did overcome a couple of challenges that we incorporated into slides here: 
+https://docs.google.com/presentation/d/16SR_BmWgcMNBHswBqH2wj8FkN7BY8gcfPwh8AgW10jc/edit?usp=sharing
