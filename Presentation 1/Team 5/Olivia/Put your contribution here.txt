@@ -1,6 +1,5 @@
-Put whatever you did here, except data files. Don't put any data files (tissue images) here, they are too large for github. You may indicate the data your code uses - provide the OneDrive link to that data, or just mention the path to it.
+I completed the task for Cases 62 and 63 for Copenhagen.
 
-If you wrote any code (python / QuPath / any other language), comment it well, and put it here, along with a Readme file describing the code. If the code is meant to be useful to other people, put instructions in the Readme file on how to use it. You will get extra credit if many people use your code!
+Case 62 only had one slice per stain, therefore only requiring a simple crop.
 
-If you did literature survey, then put it here as well.
-
+Case 63 also had no issues, though this one had seven matches total. Initially, I used Cara's code, which was fairly effective in capturing the more obvious slices. I then had to manually trace the ones her code had missed, as well as split one of the annotations into three different stains.
