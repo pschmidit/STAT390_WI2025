@@ -11,6 +11,10 @@ Case 11: Two main Issues: Sox10 has 2 stains and 2 matches with H&E. Melan has n
 
 These were mostly minor issues that could be fixed through rextraction using Qupath or reorganizing the match folders to be correct matches. I also added some other match folders to each case to accomodate double or triple matches. Overall, I would say my biggest hiccup was the blurry scan with case 8 and there not being a rescan to fix this issue. So that made it so that there were less H&E scans for that particular patient. Aside from that, this task mainly involved reogranizing and ensuring accuracy.
 
+Update from 1/22 (Week 3 as I forgot to update this Github after making changes during Week 1):
+- After writing this, I fixed all the cases to only include mathces that were all 3 and not 2 only matches based on a less 100% match idealogy meaning that if particular portions matched then it was considered a match
+  - this will allow us to have more data to be used for the issue
+- Double checked all matches and added multiple match folder if necessary.
 
 If you wrote any code (python / QuPath / any other language), comment it well, and put it here, along with a Readme file describing the code. If the code is meant to be useful to other people, put instructions in the Readme file on how to use it. You will get extra credit if many people use your code!
 
