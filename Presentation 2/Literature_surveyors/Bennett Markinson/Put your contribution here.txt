@@ -1,6 +1,51 @@
-Put whatever you did here, except data files. Don't put any data files (tissue images) here, they are too large for github. You may indicate the data your code uses - provide the OneDrive link to that data, or just mention the path to it.
+Researched, analyzed, and presented 4 articles relating to the question Why is the patch shape taken as a square in tissue image analysis, machine learning?
 
-If you wrote any code (python / QuPath / any other language), comment it well, and put it here, along with a Readme file describing the code. If the code is meant to be useful to other people, put instructions in the Readme file on how to use it. You will get extra credit if many people use your code!
+Researched about uniform patch size and the current benefits for using square patches:
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5265243/
 
-If you did literature survey, then put it here as well.
+Slides info includesl
+Square patches are typically used because uniform patch shapes helps computational efficiency and consistent feature extraction: [6]
+Aligns with grid structure of images
+Uniformity ensures that all patches contribute equally to the classification task
+Important to avoid distortion or bias introduced by irregular shapes
+Article uses example of laparoscopic surgeries
+Uses square patching
+Achieved 98.4% in tissue classification.
+
+Additional info: Multispectral imaging for superior tissue differentiation compared to RGB imaging
+article discusses a method for intraoperative tissue classification using multispectral image patches for computer-assisted laparoscopic surgeries
+
+Researched about the use of rectangle patch size in similar medical problems and whether using non square patch sizing was effective:
+https://ieeexplore.ieee.org/document/7848208
+
+Slide info:
+Study found that used rectangular patches in fundus images for detecting diabetic retinopathy [7]
+Rectangular patches have been used instead of square patches before
+Texture, color models, and stats measures extracted from 48x64 pixel rectangular patches 
+High sensitivity and specificity for detecting hard exudates
+Challenges in distinguishing hemorrhages due to minor color differences
+In this study, it was more practical to use rectangular patches as it fit the image structure better
+
+Additional info:
+Features such as texture, color models, and statistical measures are extracted from 48×64 pixel rectangular patches to classify normal, hemorrhage, and hard exudate regions.
+
+Finally researched about an alternative AI called patchAI that automatically analyes a problem and decides which patch size would be optimal. Could be very helpful for our problem:
+
+https://www.mdpi.com/2414-4088/6/12/111
+
+Slide info:
+patchIT is a tool for creating image patches tailored for different image processing tasks  [8]
+Customizable patch size, shape, and overlap to meet needs
+Streamlines patch creation and effective feature extraction while being computationally efficient.
+requires two parameters: the input image and the patch size
+Used for object detection and medical imaging
+We could use this for our problem to test if other patch sizes may be optimal for our data
+
+Additional info:
+They provide an alternative representation of the image as a set of partial local sub-images (patches) which is a vital preprocessing step in many image processing applications. In this paper a new software tool called patchIT is presented providing an integrated framework suitable for the systematic and automatized extraction of patches from images based on user defined geometrical and spatial criteria
+
+patchIT is a tool designed for extracting image patches tailored to different image processing and analysis tasks. It allows users to customize the size, shape, and overlap of patches to suit various applications like object recognition and texture analysis. The tool integrates preprocessing features to normalize input images and optimize patch extraction. By creating patches systematically it makes sure the data is prepared efficient and is compatible with machine learning models, enhancing performance in applications such as medical imaging, object detection, and feature extraction.
+
+
+
 
