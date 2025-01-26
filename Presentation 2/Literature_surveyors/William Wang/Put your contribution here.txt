@@ -1,6 +1,40 @@
-Put whatever you did here, except data files. Don't put any data files (tissue images) here, they are too large for github. You may indicate the data your code uses - provide the OneDrive link to that data, or just mention the path to it.
+Researched 'Why Powers of 2' and analyzed the mathematics, downsampling/poolic logic, and edge cases of Powers of 2. Paired easy to read bullets with accompanying imagery.
 
-If you wrote any code (python / QuPath / any other language), comment it well, and put it here, along with a Readme file describing the code. If the code is meant to be useful to other people, put instructions in the Readme file on how to use it. You will get extra credit if many people use your code!
+Slide Text:
 
-If you did literature survey, then put it here as well.
+Slide 11 - Text and Image (Sourced Online)
+Squares and Power of 2
+
+• The fixed input sizes of squares work cohesively with certain input dimensions of CNN layer weight matrices, which are  (preferably)  fixed.
+• However, not all images are the same dimensions, and cropping may break the spatial coherence of an image
+
+Network Design, Downsampling, and Pooling Operations
+• To avoid a mismatch size exception, downsampling data can allow all inputs to have the same dimension [3]
+• Without powers of 2, the pooling operation may not cover the entire image depending on stride and padding.
+
+Slide 13 - Text and Image (Self Made)
+224x224 in Existing Architectures
+
+• AlexNet, one of the Earliest ImageNet CNNs, down-sampled to 256 and cropped to 224 x 224 for translation invariance due to data augmentation [10]
+  • Translation Invariance: x(t) = x(t+a)
+• ImageNet is a popular annual contest, and many successors to AlexNet were built on its 224x224 preprocessing size[11]
+
+Batch Sizes - Demonstrating Hardware Efficiency
+• Nvidia’s Tensor Cores do better with batch sizes in multiples of 8 in NN[12] 
+• Matrix multiplication (which Tensor Cores are great at) work better in dimensions of 16 bytes.
+  • Dimensions can’t be controlled, but batch size can
+• While batch size and image size have little to do with each other, it’s a demonstration of the nuances of multiples in hardware efficiency.
+
+Sources Used:
+
+[3]
+https://keras.io/api/layers/pooling_layers/max_pooling2d/
+[10]
+https://www.cs.toronto.edu/~fritz/absps/imagenet.pdf
+[11]
+https://arxiv.org/pdf/1409.1556
+[12]
+https://docs.nvidia.com/deeplearning/performance/dl-performance-matrix-multiplication/index.html#gpu-imple
+[13]
+https://medium.com/aiguys/pooling-layers-in-neural-nets-and-their-variants-f6129fc4628b
 
