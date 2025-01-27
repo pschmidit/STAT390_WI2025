@@ -1,6 +1,39 @@
 Put whatever you did here, except data files. Don't put any data files (tissue images) here, they are too large for github. You may indicate the data your code uses - provide the OneDrive link to that data, or just mention the path to it.
 
+For this weeks presentation, my focus was on researching the health trends that exist within C-MIL as well as if we were missing or not considering anything related to the health aspects in our approach. My research focused on three main areas and was refined throughout the week based on our knowledge created through class as well. The first main focus was on ensuring that the classification system that we were using to classify C-MIL (the WHO 2022 classification system, as per our stakeholders) was the best possible option and allowed us the best results. What I found from this, after reading a couple different articles including one from our stakeholders was that we are in fact using the best and most accurately available classification system. The first article I read regarding this topic looked at the older WHO classification system and the 2022 updated one, and found that the updated one was better because it simplified the categories down to three instead of four. It found that low grade C-MIL was the hardest to classify accurately with the system, but this was a universal issue seen across all the classification systems I looked at. The other article I analyzed compared the WHO 2022 system to the C-MIN and PAM classification system and found again that the WHO system was the best avaliable option. It again though found that low grade was hardest to classify accurately and also tried to analyze how to identify benign vs early stage melanoma through the use of staining. This brings me to the second part of my research which was analyzing our choices of staining to ensure that we were using the best avaliable options there as well.
+
+The other article I looked at showcased that our staining technique (Using Sox-10, Melan A and H&E) were the most accurate. This article compared stains Melan-A, Sox-10, HMB45, Ki-67 & P16 for C-MIL and found that the ones we are currently using are the best avalaible in terms of allowing for accurate classification. This brought me to another question, which the answer still eludes me and is: what distribution of melanocytes after staining allows us to classify something as low vs high grade C-MIL? This is something that I will continue to research and that if I find a definitive solution for, could be helpful for our algorithm being developed.
+
+The third area I researched was based on later in week three after our discussion in class on Wednesday and regarded how from a health perspective we could make our patching algorithm simpler or more robust. The biggest question from Wednesday of week 3's class is do we need the whole width of the epithelium to be in our patches when creating the patching algorithm. The research on this is mixed, with there being pros and cons to each approach depending on the how the tissue looks and the distribution of the melanocytes. Thus, my reccomendation is that we should use the whole width of the epithelium in the patches in order to ensure that we are being accurate, as the research does not quite fully support otherwise, particularly in other situations. The pros of not using the full width of the epithelium are as follows: With not the full width of the epithelium, you can have smaller patches, be more efficient in terms of computation costs and your model can learn from specific local layers on an easier scale. However here are cases that I researched where the full width of the epithelium may be necessary: 
+If melanocytes are spread across the whole layer of the epithelium, then you need to use the whole width in order to see the trends that exist
+If the lesions have features that are visible at multiple levels (basal and upper layers) then the whole width patch may be helpful to see the full trends
+Also where there is a transition in terms of abnormal and normal epithelium, the whole width will be useful 
+
+Here are some more thoughts that I briefly had as well based on the research: 
+Overall: Probably do need whole width of epithelium to classify C-MIL accurately because of the structural and contextual features that it has within it 
+Patterns that allow for distinguishing between classes may only become visible with the whole epitelium in the patch
+Some patterns may only be available in certain parts of levels/layers of the epithelium so if your patch doesn’t include whole width, then it could lead to a miss classification 
+Classification properly using a model sometimes involves using multiple patches so you need to have the whole width to see the patterns that exist
+Epithelium is the canvas for which you can see the melanoma trends being identified
+Also, the WHO classification system relies heavily on the epithelium in order to classify properly. 
+
+Overall, I covered a lot of ground over the last couple of weeks and am excited to keep diving into these topics to get more insight. 
+
 If you wrote any code (python / QuPath / any other language), comment it well, and put it here, along with a Readme file describing the code. If the code is meant to be useful to other people, put instructions in the Readme file on how to use it. You will get extra credit if many people use your code!
 
 If you did literature survey, then put it here as well.
+
+Here are some of the articles I looked at:
+
+Who Classification articles and info on staining/Immunochemistry: 
+
+1. Mudhar, H. S., Krishna, Y., Cross, S., Auw-Haedrich, C., Barnhill, R., Cherepanoff, S., Eagle, R., Farmer, J., Folberg, R., Grossniklaus, H., Herwig-Carl , M. C., Hyrcza, M., Lassalle , S., Loeffler, K. U., Moulin, A., Milman, T., Verdijk , R. M., Heegaard , S., & Coupland, S. E. (2023, November 3). A multicenter study validates the WHO 2022 classification for conjunctival melanocytic intraepithelial lesions with clinical and prognostic relevance. Laboratory Investigation. https://www.sciencedirect.com/science/article/pii/S0023683723002246#:~:text=Briefly%2C%20the%204%2Dtiered%20scoring,C%2DMIL%2C%20including%20MIS 
+
+2. Milman, T., Eiger-Moscovich, M., Henry, R. K., Folberg, R., Coupland, S. E., Grossniklaus, H. E., Mudhar, H. S., Eberhart, C. G., Heegaard, S., Auw-Hädrich, C., Herwig-Carl, M. C., Löffler, K. U., Cherepanoff, S., Zhang, Q., Sharpe, J. E., Rose O See , T., Shields, C. L., & Eagle Jr, R. C. (2020, October 30). Validation of the newly proposed World Health Organization Classification system for conjunctival melanocytic intraepithelial lesions: A comparison with the C-min and Pam Classification Schemes. American journal of ophthalmology. https://pubmed.ncbi.nlm.nih.gov/33130046/
+
+Article on Epithelium Width in Patching: 
+
+1. Whittington, C. P.,  Bresler, S. C., Simon, C., Patel, R. M., & Shields, C. L. (2023, November 6). Melanocytic lesions of the conjunctiva: An up-to-date review. Diagnostic Histopathology. https://www.sciencedirect.com/science/article/abs/pii/S1756231723001652 
+
+
 
