@@ -4,3 +4,23 @@ If you wrote any code (python / QuPath / any other language), comment it well, a
 
 If you did literature survey, then put it here as well.
 
+
+###################################
+
+Created google slides, including intro slides. 
+
+Created first three slides under section 1:
+- Deep Learning for Whole-slide image analysis
+- Convolutional Neural Networks
+- Squares as a Patch Shape
+
+
+Also did a bunch of research and pulled articles that didnt pan out
+
+
+
+
+
+
+
+
