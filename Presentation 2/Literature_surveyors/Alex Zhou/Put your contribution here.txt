@@ -3,4 +3,6 @@ Put whatever you did here, except data files. Don't put any data files (tissue i
 If you wrote any code (python / QuPath / any other language), comment it well, and put it here, along with a Readme file describing the code. If the code is meant to be useful to other people, put instructions in the Readme file on how to use it. You will get extra credit if many people use your code!
 
 If you did literature survey, then put it here as well.
+-----------------------------------------------------------------------
 
+For presentation 2, we were answering 3 questions related to optimal patch size, shape, and number. Individually, I focused on the second question, which was if patch sizes being in powers of 2 is necessary or not. Although very little material directly answering this question was found, I was able to provide some empirical evidence for the team to back up our claim that the power of 2 rule may not matter much outside of the computational efficiency aspect. The empirical evidence I found was useful because it gave us some insight from other reputable groups that, although not a perfect match, had somewhat similar objectives (analyzing tissue in the eye using CNN models). I read and analzyed the article and then created a separate slide discussing how it helps answer the question. I also helped out with the other slides for the same question.
