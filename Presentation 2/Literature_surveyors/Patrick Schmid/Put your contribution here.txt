@@ -1,3 +1,5 @@
+Presenation 3:
+
 Assembled research on CNN models using rectangular inputs, primarily two that deal with license plate recognition, linked here:
 
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8322837
