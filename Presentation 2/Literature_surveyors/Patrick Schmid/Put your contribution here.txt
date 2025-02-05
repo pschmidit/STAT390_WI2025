@@ -9,4 +9,4 @@ Also looked at a google street view number recognition model that extrapolated r
 
 https://arxiv.org/pdf/1312.6082
 
-Edited and presented slides 8 - 14 of our presentation
+Edited and presented slides 22 - 28 of our presentation
