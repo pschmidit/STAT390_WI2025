@@ -1,6 +1,10 @@
-Put whatever you did here, except data files. Don't put any data files (tissue images) here, they are too large for github. You may indicate the data your code uses - provide the OneDrive link to that data, or just mention the path to it.
+Assembled research on CNN models using rectangular inputs, primarily two that deal with license plate recognition, linked here:
 
-If you wrote any code (python / QuPath / any other language), comment it well, and put it here, along with a Readme file describing the code. If the code is meant to be useful to other people, put instructions in the Readme file on how to use it. You will get extra credit if many people use your code!
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8322837
+https://american-cse.org/sites/csci2020proc/pdfs/CSCI2020-6SccvdzjqC7bKupZxFmCoA/762400b529/762400b529.pdf
 
-If you did literature survey, then put it here as well.
+Also looked at a google street view number recognition model that extrapolated rectangular bounding boxes out into square images for data, linked here:
 
+https://arxiv.org/pdf/1312.6082
+
+Edited and presented slides 8 - 14 of our presentation
